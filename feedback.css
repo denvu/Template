@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: var(--color-white);
 }
 
@@ -27,7 +28,7 @@
 .feedback__form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .feedback__input {
@@ -48,7 +49,7 @@
 .feedback__btn {
   margin-bottom: 50px;
   max-width: 218px;
-  padding: 12px 38px;
+  padding: 12px 40px;
   background-color: #15a9cb;
   border-radius: 50px;
   align-self: center;
@@ -64,6 +65,7 @@
 
 .feedback__link {
   color: #4a76a8;
+  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {

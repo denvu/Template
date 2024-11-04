@@ -1,5 +1,5 @@
 .about-company {
-  --card-count: 1;
+    padding-top: 70px;
 }
 
 .about-company__wrapper {
@@ -17,21 +17,28 @@
 }
 
 .about-company__subtitle {
+    display: flex;
+    column-gap: 23px;
+    margin-bottom: 35px;
+}
+
+.about-company__subtitle-text {
   font-size: 22px;
   font-weight: 400;
-  margin-bottom: 35px;
 }
 
 .about-company__text {
   max-width: 724px;
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 58px;
+  line-height: 140.6%;
 }
 
 .about-company__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  column-gap: 50px;
 }
 
 .about-company__item {

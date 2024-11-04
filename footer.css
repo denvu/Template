@@ -26,12 +26,14 @@
 
 .footer__creator {
   font-size: 12px;
-  line-height: 140%;
+  font-weight: 500;
+  line-height: 140.6%;
   opacity: 0.5;
 }
 
 .footer__contact {
   text-align: center;
+  font-weight: 400;
 }
 
 .footer__tel {
