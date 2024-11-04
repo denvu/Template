@@ -1,0 +1,150 @@
+.head {
+  background-image: url(img/Background-one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.head__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 110px;
+  font-size: 24px;
+  color: var(--color-white);
+}
+
+.head__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 990px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.head__title {
+  padding-bottom: 35px;
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.head__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 90px;
+}
+
+.head__button {
+  margin-bottom: 120px;
+  max-width: 200px;
+  padding: 12px 48px;
+  background-color: #15a9cb;
+  border-radius: 50px;
+  align-self: center;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .head__logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .head__wrapper {
+    margin-bottom: 80px;
+    font-size: 21px;
+  }
+
+  .head__link {
+    font-size: 13px;
+  }
+
+  .head__title {
+    padding-bottom: 32px;
+    font-size: 40px;
+  }
+
+  .head__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .head__logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .head__wrapper {
+    margin-bottom: 55px;
+    font-size: 18px;
+  }
+
+  .head__link {
+    font-size: 12px;
+  }
+
+  .head__title {
+    padding-bottom: 28px;
+    font-size: 35px;
+  }
+
+  .head__text {
+    font-size: 17px;
+    opacity: 0.75;
+  }
+
+  .head__button {
+    margin-bottom: 65px;
+    max-width: 160px;
+    padding: 9px 29px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .head__logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .head__tel, .head__link {
+    display: none;
+  }
+
+  .head__contact {
+    width: 24px;
+    height: 24px;
+    background-image: url(img/Phone.png);
+  }
+
+  .head__wrapper {
+    margin-bottom: 55px;
+  }
+
+  .head__title {
+    padding-bottom: 23px;
+    font-size: 20px;
+  }
+
+  .head__text {
+    margin-bottom: 54px;
+    font-size: 14px;
+  }
+
+  .head__text-none {
+    display: none;
+  }
+
+  .head__button {
+    margin-bottom: 65px;
+    max-width: 160px;
+    padding: 9px 29px;
+    font-size: 16px;
+  }
+}

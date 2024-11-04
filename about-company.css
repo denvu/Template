@@ -1,0 +1,117 @@
+.about-company {
+  --card-count: 1;
+}
+
+.about-company__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #383a4c;
+}
+
+.about-company__title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.about-company__subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.about-company__text {
+  max-width: 724px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.about-company__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-company__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  max-width: 196px;
+  max-height: 195px;
+  line-height: 140%;
+}
+
+.about-company__item-one,
+.about-company__item-two,
+.about-company__item-three,
+.about-company__item-four {
+  width: 122px;
+  height: 122px;
+  margin-bottom: 16px;
+  background-image: url(img/Ellipse.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: var(--color-white);
+  font-size: 57px;
+  font-weight: 500;
+  padding-top: 25%;
+}
+
+@media (max-width: 1024px) {
+  .about-company__title {
+    font-size: 32px;
+    margin-bottom: 23px;
+  }
+
+  .about-company__subtitle {
+    font-size: 20px;
+    margin-bottom: 33px;
+  }
+
+  .about-company__text {
+    max-width: 666px;
+    font-size: 16px;
+  }
+
+  .about-company__item {
+    font-size: 18px;
+    max-width: 180px;
+    max-height: 182px;
+  }
+
+  .about-company__item-one,
+  .about-company__item-two,
+  .about-company__item-three,
+  .about-company__item-four {
+    width: 104px;
+    height: 104px;
+    margin-bottom: 26px;
+    font-size: 52px;
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-company__item-one,
+  .about-company__item-two,
+  .about-company__item-three,
+  .about-company__item-four {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 22px;
+    font-size: 48px;
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 450px) {
+    .about-company__list {
+        flex-direction: column;
+    }
+    .about-company__item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}

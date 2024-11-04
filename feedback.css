@@ -1,0 +1,137 @@
+.feedback {
+  background-image: url(img/Background-two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feedback__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.feedback__title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.feedback__text {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.feedback__input {
+  width: 423px;
+  height: 44px;
+  padding-left: 28px;
+  background: transparent;
+  border: 1px solid var(--color-white);
+  border-radius: 50px;
+  color: var(--color-white);
+  font-size: 22px;
+}
+
+.feedback__input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.feedback__btn {
+  margin-bottom: 50px;
+  max-width: 218px;
+  padding: 12px 38px;
+  background-color: #15a9cb;
+  border-radius: 50px;
+  align-self: center;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.feedback__pers-data {
+  text-align: center;
+  font-size: 20px;
+}
+
+.feedback__link {
+  color: #4a76a8;
+}
+
+@media (max-width: 1024px) {
+  .feedback__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .feedback__text {
+    font-size: 20px;
+  }
+
+  .feedback__input {
+    width: 377px;
+    height: 39px;
+    padding-left: 21px;
+    font-size: 20px;
+  }
+
+  .feedback__pers-data {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 800px) {
+  .feedback__title {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .feedback__text {
+    font-size: 16px;
+  }
+
+  .feedback__pers-data {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .feedback__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .feedback__text {
+    font-size: 12px;
+  }
+
+  .feedback__input {
+    width: 290px;
+    height: 28px;
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  .feedback__input:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .feedback__btn {
+    margin-bottom: 30px;
+    max-width: 174px;
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .feedback__pers-data {
+    font-size: 11px;
+  }
+}
